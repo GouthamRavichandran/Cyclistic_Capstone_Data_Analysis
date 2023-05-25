@@ -22,17 +22,25 @@ Then, I saved them with the name **cleaned_data.csv** and exported them.
 
 Next comes the Analysis of the data. Upon running SQL queries, I figured out the **TOP 5** and the **LEAST 5 member’s and casual rider’s location**. This led to some interesting findings. **DuSable Lake Shore Dr & North Blvd** is the only location to appear on both the member and casual rider’s TOP 5 location with an impressive 4300 member visits and 6418 casual rider visits. Also, the average ride duration was 18.5 minutes for members and 29.9 minutes for casual riders here.
 
-![Member Top 5 Location](Member TOP 5 Location.jpg)
-![Casual Riders Top 5 Location](Casual TOP 5 Location.jpg)
+![Member Top 5 Location](Member_TOP_5_Location.jpg)
+![Casual Riders Top 5 Location](Casual_TOP_5_Location.jpg)
 
-Similarly, there were **125 member locations and 95 casual rider’s location that were least visited** with just 1 visit in the whole dataset. Interestingly, there were **26 locations** that were **neither popular with members nor casual riders**. They can either be closed to concentrate funds better on other locations or if funds are in surplus, proper ads can be given to make these locations more visible.
+Similarly, there were **125 member locations and 95 casual rider’s location that were least visited** with just 1 visit in the whole dataset. Interestingly, there were **26 locations** that were **neither popular with members nor casual riders**. They can either be closed to concentrate funds better on other locations or if funds are in surplus, proper ads can be given to make these locations more visible. **Escpecially the Streeter Dr & Grand Ave region is popular among casual riders with high footfall, but short ride time and funds can be concentrated here.** 
 
 Now, I moved on to R for further analysis. In R I created a dataframe called "**data**" and imported the cleaned_data.csv file in which I ran some scripts to find the mean, median, max and minimum duration of the ride_time.
 
 The mean ride duration was 26.6 minutes for casual riders and 13.6 minutes for members. Also, the median was located at 16 minutes and 10 minutes for casual riders and members respectively. This proves that casual riders are higher in number and they use the company’s services more.
 
-As the next step, I ordered the data by days of the week which led to one more interesting find. **Casual rider’s duration is longer consistently across the weekdays while members outperform them during the weekends**.
+As the next step, I ordered the data by days of the week which led to one more interesting find. **We can infer that while members's duration is longer consistently across the weekdays, casual rider’s outperform members during the weekends.**.
+
+![Average Ride Time](Average_Ride_Time.jpg)
+
+![Number of Rides](Number_of_Rides.jpg)
 
 Finally, what better mode to convey the findings if not by visualizing them. All the findings were **visualized using Excel charts, SQL chart visualization and R’s ggplot2**.
+
+![Popular Locations](Popular_Locations.png)
+
+![Average Ride Duration](Average_Duration.jpg)
 
 This brings us to the final part where we can confidently convey all my findings to the stakeholders with visualizations that are backed by data without any bias. Let me know how I did for my first project and ways in which I can improve. All my SQL codes and R codes are in separate files with their names.
