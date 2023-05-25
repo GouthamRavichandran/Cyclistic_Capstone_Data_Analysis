@@ -26,9 +26,9 @@ Next comes the Analysis of the data. Upon running SQL queries, I figured out the
 
 ![Casual Riders Top 5 Location](Casual_TOP_5_Location.jpg)
 
-![Member Top 5 Location_SQL_Viz](Member_TOP_5_SQL_Viz.png)
+![Member Top 5 Location_SQL_Viz](Member_Top_5_SQL_Viz.png)
 
-![Casual Riders Top 5 Location_SQL_Viz](Casual_TOP_5_SQL_Viz)
+![Casual Riders Top 5 Location_SQL_Viz](Casual_Top_5_SQL_Viz.png)
 
 Similarly, there were **125 member locations and 95 casual rider’s location that were least visited** with just 1 visit in the whole dataset. Interestingly, there were **26 locations** that were **neither popular with members nor casual riders**. They can either be closed to concentrate funds better on other locations or if funds are in surplus, proper ads can be given to make these locations more visible. **Escpecially the Streeter Dr & Grand Ave region is popular among casual riders with high footfall, but short ride time and funds can be concentrated here.** 
 
